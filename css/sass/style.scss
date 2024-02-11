@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family:'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+#header{
+    background: #4a1831;
+    padding: 10px;
+}
+.nav{
+    
+    list-style: none;
+    margin-bottom: 0;
+    
+}
+.nav-item{
+    padding-right: 60px;
+}
+.nav-link.active{
+    color: #ffffff!important;
+    background: #7e4963;
+    border-radius: 2px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #ffd7ad;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: #ffffff;
+    background: #c54083;
+    border-radius: 2px;
+}
+
+#logo{
+    text-decoration: none;
+    color: #ffd7ad;
+    text-transform: uppercase;
+
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+#banner1{
+    background:linear-gradient(rgb(20 19 20 / 44%), rgba(32, 25, 31, 0.67)), url('../../img/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+height: auto;
+}
+#ban1{
+    margin-top: 22px;
+    // padding-left: 22px;
+    margin-bottom: 20px;
+}
+img#ban {
+    width: 123px;
+    height: 109px;
+}
+#ban2{
+    padding-left: 22px;padding-left: 22px;
+    color: #ffd7ad;
+    margin-bottom: 23px;
+}
+#ban2 h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+#ban3{
+    color: #ffd7ad;
+}
+#ban3 p{
+    padding-left: 22px;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+#ban3 button {
+    margin-left: 22px;
+    width: 13.3rem;
+    height: 2.6rem;
+    color: #4a1831;
+    background: #ffd7ad;
+    text-transform: uppercase;
+    border-radius: 23px;
+    border: none;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#section1{
+    background: #ffd7ad;
+    color: #4a1831;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    // margin-bottom: 12px;
+}
+#section1 h1{
+    font-weight: 800;
+}
+#section1 p{
+    padding: 12px;
+}
+#section1 button{
+    width: 13.3rem;
+    height: 2.9rem;;
+    color: #ffd7ad;
+    background: #4a1831;
+    text-transform: uppercase;
+    border-radius: 23px;
+    border: none;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#section{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    // text-align: center;
+    box-shadow:inset -6px 2px 16px 0px black;
+}
+#img2{
+width: 400px;
+}
+#section3{
+    background: #ffd7ad;
+    color: #4a1831;
+    padding-top: 50px;
+    // padding-bottom: 40px;
+}
+#per {
+    font-weight: bold;
+    font-size: 6rem;
+    color: #e63956;
+    text-transform: uppercase;
+}
+#dis {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #4a1831;
+    text-transform: uppercase;
+}
+#discrip {
+    font-weight: bold;
+    font-size: 4rem;
+    color: #6cc5ac;
+    text-transform: uppercase;
+
+}
+#section4{
+    padding-top: 3.3rem;
+    background: #4a1831;
+    color: #ffd7ad;
+    padding-bottom: 3rem;
+}
+#section4 h1{
+    font-weight: 800;
+    padding-left: 22px;
+}
+#section4 p{
+    padding: 12px;
+    padding-left: 22px;
+}
+#section4 button{
+    margin-left: 22px;
+   width: 13.3rem;
+    height: 2.6rem;
+    color: #4a1831;
+    background: #ffd7ad;
+    text-transform: uppercase;
+    border-radius: 23px;
+    border: none;
+    font-weight: 700;
+}
+#section4 img{
+    width: 410px;
+}
+.flexc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
+#banner2 {
+    background: linear-gradient(rgb(34 24 33 / 56%), rgb(32 25 31 / 67%)), url('../../img/img5.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section5{
+    padding-top: 4rem;
+}
+#section5 h2{
+    padding-top: 2rem;
+    color: #ffd7ad;
+    padding-bottom: 2rem;
+}
+#section1 .wapper {
+    margin: auto;
+    position: relative;
+    width: 800px;
+    max-width: 100%;
+}
+#section1 .wapper input{
+    padding: 10px;
+    border-radius: 50px;
+    width: 100%;
+}
+#section1 .wapper button{
+    position: absolute;
+    right: 0;
+    // transform: translateX(-10%);
+    // top: 10%;
+}
+#section4 .follow-on{
+    // 
+    
+}
+#section4 .follow-on ul{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+}
+
+#section4 .follow-on ul li{
+    // padding-bottom: 12px;
+    padding: 12px;
+background-color: #ffd7ad;
+border-radius: 50%;
+}
+#section4 .follow-on ul li a{
+    text-decoration: none;
+    color: #000;
+}
+#section7 h1{
+    font-size: 20px;
+}
+#section7 ul {
+    padding-left: 18px;
+    /* padding: 0px; */
+    list-style: none;
+}
+#section7 ul li{
+    margin-bottom: 12px;
+}
+#section7 ul li a{
+    text-decoration: none;
+    color: #ffd7ad;
+}
+/* ==========================================================================
+   Medium Layout: 1280px.
+   ========================================================================== */
+   @media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   }
+   /* ==========================================================================
+      Tablet Layout: 768px. 
+      ========================================================================== */
+   @media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+       
+       
+       
+       
+       
+    #per {
+        font-size: 3rem;
+    }
+    #dis {font-size: 1.5rem;}
+    #discrip {
+        font-size: 2rem;
+    }   
+       
+    #section7{
+        text-align: justify;
+       }
+    
+       
+       
+   }
+   /* ==========================================================================
+      Wide Mobile Layout: 480px.
+      ========================================================================== */
+   @media only screen and (min-width: 480px) and (max-width: 767px) { 
+   
+    .flexc{
+text-align: center;
+    } 
+    #per {
+        font-size: 4rem;
+    }
+    #dis {font-size: 1.01rem;}
+    #discrip {
+        font-size: 1.45rem;
+    }   
+       
+    #section4 .follow-on ul{
+        justify-content: center;
+
+    }
+    #ban3,#section,#section1,#section4   {
+        text-align: center;
+    }
+       .flexc{
+        display: block;
+       }
+       #section7{
+        text-align: justify;
+       }
+       
+   }
+   
+   
+   
+   /* ==========================================================================
+      Mobile Layout: 320px.
+      ========================================================================== */
+   @media only screen and (min-width: 200px) and (max-width: 479px) { 
+       
+    #section4 .follow-on ul{
+        justify-content: center;
+
+    }
+    #per {
+        font-size: 4rem;
+    }
+    #dis {font-size: 1rem;}
+    #discrip {
+        font-size: 1.6rem;
+    }   
+       
+       
+    #ban3,#section,#section1,#section4{
+        text-align: center;
+    }
+       
+    #section7{
+        text-align: justify;
+       }
+       
+    .flexc{
+        display: block;
+       }
+       
+       
+       
+   }       
